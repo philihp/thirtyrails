@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Overrides from './components/Overrides'
+import Grid from './components/Grid'
+import Reference from './components/Reference'
+import Score from './components/Score'
+import './App.css'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      thirty rails
+      <Overrides />
+      <Grid />
+      <Reference />
+      <Score />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
