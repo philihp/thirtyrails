@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Overrides = () => {
-  return <div className="Overrides">Overrides</div>
-}
+  return <div className="Overrides">overrides</div>;
+};
 
-export default Overrides
+export default Overrides;

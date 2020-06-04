@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Score = () => {
-  return <div className="Score">Score</div>
-}
+  return <div className="Score">score</div>;
+};
 
-export default Score
+export default Score;

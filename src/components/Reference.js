@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./Reference.css";
 
 const Reference = () => {
-  return <div className="Reference">Reference</div>
-}
+  return <div className="Reference">reference</div>;
+};
 
-export default Reference
+export default Reference;

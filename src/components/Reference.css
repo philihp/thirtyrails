@@ -1,0 +1,9 @@
+.Reference {
+  width: 21em;
+}
+
+.Reference td,
+.Reference th {
+  width: 3em;
+  height: 3em;
+}

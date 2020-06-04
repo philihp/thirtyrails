@@ -1,0 +1,9 @@
+.Score {
+  width: 21em;
+}
+
+.Score td,
+.Score th {
+  width: 3em;
+  height: 3em;
+}
