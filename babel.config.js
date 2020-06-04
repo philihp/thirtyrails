@@ -1,2 +1,2 @@
-const presets = [['@babel/preset-env'], ['@babel/preset-react']]
+const presets = [['next/babel']]
 module.exports = { presets }
