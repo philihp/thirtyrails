@@ -6,7 +6,10 @@
     "lint": "eslint .",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "next": "9.4.4",
@@ -15,7 +18,10 @@
   },
   "devDependencies": {
     "@philihp/eslint-config": "0.0.5",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
     "husky": "4.2.5",
+    "jest": "26.0.1",
     "lint-staged": "10.2.8"
   },
   "lint-staged": {
@@ -36,6 +42,11 @@
   "eslintConfig": {
     "extends": [
       "@philihp"
+    ]
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js"
     ]
   }
 }
