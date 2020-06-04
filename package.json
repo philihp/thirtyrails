@@ -16,7 +16,7 @@
   "devDependencies": {
     "@philihp/eslint-config": "0.0.5",
     "husky": "4.2.5",
-    "lint-staged": "10.2.8"
+    "lint-staged": "10.2.9"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
