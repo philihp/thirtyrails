@@ -1,2 +1,2 @@
-const presets = ['@babel/env']
+const presets = [['@babel/preset-react']]
 module.exports = { presets }
