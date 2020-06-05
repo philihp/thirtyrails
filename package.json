@@ -1,5 +1,7 @@
 {
   "name": "thirtyrails",
+  "author": "Philihp Busby <philihp@gmail.com>",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
