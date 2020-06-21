@@ -1,5 +1,7 @@
 {
   "name": "thirtyrails",
+  "author": "Philihp Busby <philihp@gmail.com>",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,17 +19,17 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.10.1",
-    "@babel/core": "7.10.2",
-    "@babel/preset-env": "7.10.2",
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
     "@babel/preset-react": "7.10.1",
-    "@philihp/eslint-config": "1.0.0",
+    "@philihp/eslint-config": "2.0.3",
     "babel-jest": "26.0.1",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "husky": "4.2.5",
     "jest": "26.0.1",
-    "lint-staged": "10.2.9"
+    "lint-staged": "10.2.11"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json}": [
